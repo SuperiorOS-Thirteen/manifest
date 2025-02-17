@@ -23,11 +23,11 @@ To get started with the building process, you'll need to get familiar with [Git 
 # Sync Source:-
 
 ```bash
-    repo init -u https://github.com/SuperiorOS/manifest.git -b thirteen
+repo init -u https://github.com/SuperiorOS/manifest.git -b thirteen --depth=1
 ```
 
 ```bash
-    repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c --force-sync --no-clone-bundle --no-tags
 ```
 
 # Start the build:-
