@@ -23,7 +23,7 @@ To get started with the building process, you'll need to get familiar with [Git 
 # Sync Source:-
 
 ```bash
-repo init -u https://github.com/SuperiorOS/manifest.git -b thirteen --depth=1
+repo init -u https://github.com/superior-lts/manifest.git -b thirteen --depth=1
 ```
 
 ```bash
