@@ -90,11 +90,10 @@
 
   <!-- Display HALS -->
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-20.0-caf-sdm845" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8150" remote="lineage" />
 
   <!-- Media HALS -->
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-sdm845" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="lineage-19.1-caf-sm8150" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-sm8150" remote="lineage" />
 
   <!-- system repos -->
   <project path="system/qcom" name="android_system_qcom" revision="lineage-20" remote="lineage" />

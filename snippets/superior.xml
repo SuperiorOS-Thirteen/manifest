@@ -104,6 +104,7 @@
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="thirteen-caf-sm8250" remote="superior" />
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="thirteen-caf-sm8350" remote="superior" />
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="thirteen-caf-msm8998" remote="superior" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="lts" />
 
   <!-- Media hals -->
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="thirteen-caf-sm8250" remote="superior" />
