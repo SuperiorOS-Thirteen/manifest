@@ -58,6 +58,7 @@
   <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="superior" />
 
   <!-- External repos -->
+  <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="lts" />
   <project path="external/boringssl" name="android_external_boringssl" groups="pdk" remote="lts" />
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="superior" />
