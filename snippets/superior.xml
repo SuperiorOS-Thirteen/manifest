@@ -144,7 +144,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="superior" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lts" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="superior" />
-  <project path="packages/apps/SuperiorLab" name="android_packages_apps_SuperiorLab" remote="superior" />
+  <project path="packages/apps/SuperiorLab" name="android_packages_apps_SuperiorLab" remote="lts" />
   <project path="packages/apps/SuperiorWallpapers" name="android_packages_apps_SuperiorWallpapers" remote="superior" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="superior" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="superior" />
