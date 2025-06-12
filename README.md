@@ -16,11 +16,11 @@ repo sync -c --force-sync
 # Start the build:-
 
 ```bash
-  . build/envsetup.sh
+. build/envsetup.sh
 ```
 ```bash
-  lunch superior_<devicecodename>-userdebug
+lunch superior_<devicecodename>-userdebug
 ```
 ```bash
-  m bacon -j$(nproc --all)
+m bacon -j$(nproc --all)
 ```
