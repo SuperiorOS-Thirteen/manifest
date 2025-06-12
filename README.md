@@ -1,41 +1,26 @@
----
-<p align="center">
-<img src="https://user-images.githubusercontent.com/66232233/185937884-8363abfa-570a-482a-b911-26ded6d7e01c.jpg" />
-</p>
-
-# Credits:
-
-- [**AOSP**](https://android.googlesource.com)
-- [**LineageOS**](https://github.com/LineageOS)
-- [**ProtonAOSP**](https://github.com/ProtonAOSP)
-- [**ArrowOS**](https://github.com/ArrowOS)
-- [**Pixys OS**](https://github.com/PixysOS)
-- [**Crdroid Android**](https://github.com/crdroidandroid)
-
-To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
-
-# Requirements:
-
-- Around 400G disk space.
-- A computer with at least 16GB RAM running Linux (recommended) or MacOS.
-- Build environment [setup](https://github.com/akhilnarang/scripts).
-
 # Sync Source:-
-
+To sync with full history use:
 ```bash
-repo init -u https://github.com/superior-lts/manifest.git -b thirteen --depth=1
+repo init --no-repo-verify -u https://github.com/superior-lts/manifest.git -b thirteen --git-lfs -g default,-mips,-darwin,-notdefault
 ```
 
+To save space, sync without history use:
 ```bash
-repo sync -c --force-sync --no-clone-bundle --no-tags
+repo init --depth=1 --no-repo-verify -u https://github.com/superior-lts/manifest.git -b thirteen --git-lfs -g default,-mips,-darwin,-notdefault
+```
+Then to sync up:
+```bash
+repo sync -c --force-sync
 ```
 
 # Start the build:-
 
 ```bash
   . build/envsetup.sh
+```
+```bash
   lunch superior_<devicecodename>-userdebug
+```
+```bash
   m bacon -j$(nproc --all)
 ```
-
----
