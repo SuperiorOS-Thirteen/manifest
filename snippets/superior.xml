@@ -58,6 +58,7 @@
   <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="lts" />
 
   <!-- External repos -->
+  <project path="external/bouncycastle" name="android_external_bouncycastle" groups="pdk" remote="lts" />
   <project path="external/freetype" name="android_external_freetype" groups="pdk" remote="lts" />
   <project path="external/dng_sdk" name="android_external_dng_sdk" remote="lts"/>
   <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="lts" />
