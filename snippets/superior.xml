@@ -20,7 +20,7 @@
            revision="refs/heads/thirteen" />
 
   <remote name="lts"
-           fetch="https://github.com/superior-lts"
+           fetch="https://github.com/SuperiorOS-Thirteen"
 	   revision="refs/heads/thirteen" />
 
   <!-- Build repos -->

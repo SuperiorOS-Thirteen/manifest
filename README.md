@@ -1,12 +1,12 @@
 # Sync Source:-
 To sync with full history use:
 ```bash
-repo init --no-repo-verify -u https://github.com/superior-lts/manifest.git -b thirteen --git-lfs -g default,-mips,-darwin,-notdefault
+repo init --no-repo-verify -u https://github.com/SuperiorOS-Thirteen/manifest.git -b thirteen --git-lfs -g default,-mips,-darwin,-notdefault
 ```
 
 To save space, sync without history use:
 ```bash
-repo init --depth=1 --no-repo-verify -u https://github.com/superior-lts/manifest.git -b thirteen --git-lfs -g default,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u https://github.com/SuperiorOS-Thirteen/manifest.git -b thirteen --git-lfs -g default,-mips,-darwin,-notdefault
 ```
 Then to sync up:
 ```bash
