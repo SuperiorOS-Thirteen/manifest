@@ -62,6 +62,7 @@
   <remove-project name="device/google/lynx-sepolicy" />
 
   <!-- external repos -->
+  <remove-project name="platform/external/bouncycastle" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/dng_sdk"/>
