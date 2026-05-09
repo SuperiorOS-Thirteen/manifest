@@ -62,6 +62,9 @@
   <remove-project name="device/google/lynx-sepolicy" />
 
   <!-- external repos -->
+  <remove-project name="platform/external/expat" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/bouncycastle" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/freetype" />
@@ -97,6 +100,7 @@
   <remove-project name="platform/frameworks/opt/net/ims" />
 
   <!-- hardware repos -->
+  <remove-project name="platform/hardware/st/nfc" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/wlan" />
@@ -104,6 +108,8 @@
   <remove-project name="platform/hardware/google/pixel-sepolicy" />
 
   <!-- packages repos -->
+  <remove-project name="platform/packages/apps/CertInstaller" />
+  <remove-project name="platform/packages/modules/CellBroadcastService" />
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/modules/IntentResolver" />
   <remove-project name="platform/packages/apps/Contacts" />
@@ -131,6 +137,7 @@
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/services/Mms" />
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
@@ -145,4 +152,6 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/ca-certificates" />
+
+  <remove-project name="platform/prebuilts/build-tools" />
 </manifest>
