@@ -10,7 +10,7 @@ repo init --depth=1 --no-repo-verify -u https://github.com/SuperiorOS-Thirteen/m
 ```
 Then to sync up:
 ```bash
-repo sync -c --force-sync
+repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 ```
 
 # Start the build:-
